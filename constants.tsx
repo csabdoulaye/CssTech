@@ -5,62 +5,62 @@ export const PROJECTS: Project[] = [
   {
     id: 1,
     title: "Alba Massage",
-    description: "Gestion intégrale de la communication et des réseaux sociaux pour une entreprise de bien-être spécialisée dans l'accompagnement des femmes enceintes.",
-    category: "Social Media & Communication",
-    image: "https://picsum.photos/seed/massage/800/600"
+    description: "Stratégie Social Media complète pour une marque de bien-être. Création de contenus engageants et gestion de communauté axée sur l'accompagnement à la maternité.",
+    category: "Communication Digitale",
+    image: "https://images.unsplash.com/photo-1544161515-4af6b1d462c2?auto=format&fit=crop&q=80&w=1200"
   },
   {
     id: 2,
-    title: "Gestion Airbnb Dakar",
-    description: "Optimisation et gestion stratégique d'annonces d'appartements sur Airbnb situés à Dakar, maximisant la visibilité et le taux d'occupation.",
-    category: "Real Estate Management",
-    image: "https://picsum.photos/seed/dakar/800/600"
+    title: "Airbnb Dakar",
+    description: "Pilotage opérationnel et marketing d'appartements premium à Dakar. Optimisation du référencement des annonces et gestion de la relation client multicanale.",
+    category: "Gestion de Projets",
+    image: "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80&w=1200"
   },
   {
     id: 3,
-    title: "Impact Social : Boxe & Jeunesse",
-    description: "Mise en relation réussie entre un club de boxe et un centre social pour l'instauration de cours de boxe gratuits destinés aux collégiens.",
-    category: "Social Impact & Partnership",
-    image: "https://picsum.photos/seed/boxing/800/600"
+    title: "Fight Industrie",
+    description: "Partenariat social innovant : création de cours de boxe gratuits pour les collégiens en collaboration avec un centre social local. Coordination et impact terrain.",
+    category: "Impact Social",
+    image: "https://images.unsplash.com/photo-1591117207239-7ad59a057fd6?auto=format&fit=crop&q=80&w=1200"
   }
 ];
 
 export const SOFT_SKILLS: Skill[] = [
-  { name: "Communication", description: "S'adapter à différents publics (clients, équipes, direction)", category: 'soft' },
-  { name: "Créativité", description: "Proposer des idées originales et pertinentes", category: 'soft' },
-  { name: "Adaptabilité", description: "S'ajuster rapidement aux changements", category: 'soft' },
-  { name: "Esprit d'équipe", description: "Collaborer efficacement avec divers profils", category: 'soft' },
-  { name: "Autonomie", description: "Prendre des initiatives et gérer ses priorités", category: 'soft' },
-  { name: "Rigueur", description: "Fiabilité dans l'exécution et le suivi", category: 'soft' },
-  { name: "Écoute", description: "Comprendre les besoins avant d'agir", category: 'soft' },
-  { name: "Persévérance", description: "Tenir face aux obstacles", category: 'soft' }
+  { name: "Communication", description: "Aisance relationnelle et adaptation aux interlocuteurs", category: 'soft' },
+  { name: "Créativité", description: "Veille constante et propositions d'idées neuves", category: 'soft' },
+  { name: "Adaptabilité", description: "Réactivité face aux imprévus et nouveaux outils", category: 'soft' },
+  { name: "Esprit d'équipe", description: "Coopération active au sein de projets transverses", category: 'soft' },
+  { name: "Autonomie", description: "Gestion proactive des tâches et des priorités", category: 'soft' },
+  { name: "Rigueur", description: "Souci du détail et suivi méticuleux des livrables", category: 'soft' },
+  { name: "Écoute", description: "Analyse fine des besoins et force de proposition", category: 'soft' },
+  { name: "Persévérance", description: "Capacité à mener les projets jusqu'au bout", category: 'soft' }
 ];
 
 export const HARD_SKILL_GROUPS: HardSkillGroup[] = [
   {
     category: "Social Media & Ads",
     skills: [
-      "Création de contenu (Reels/TikTok, Stories, carrousels)",
-      "Publicités sociales (Meta Ads, TikTok Ads, LinkedIn Ads)",
-      "Social listening (Brandwatch, Talkwalker)",
-      "Google Ads (Search, Display, PMax)"
+      "Gestion de planning éditorial (Instagram, TikTok, LinkedIn)",
+      "Publicité payante (Meta Business Suite, TikTok Ads)",
+      "Création visuelle (Canva, CapCut, Suite Adobe)",
+      "Social Listening & Veille concurrentielle"
     ]
   },
   {
-    category: "Analyse & Tracking",
+    category: "Gestion de Projet & Data",
     skills: [
-      "Google Analytics 4 / Looker Studio",
-      "Tracking (GTM, pixels, UTM)",
-      "Analyse d'audience & insights plateformes",
-      "KPIs (ROAS, CAC, Engagement, Conversion)"
+      "Suivi de KPIs & Reporting (GA4, Looker Studio)",
+      "Coordination de partenaires et prestataires",
+      "Tracking (Google Tag Manager, Pixels)",
+      "Gestion de budget publicitaire"
     ]
   },
   {
-    category: "Outils & Plateformes",
+    category: "Outils & CRM",
     skills: [
-      "CMS : WordPress, Shopify",
-      "Créa : Canva, Adobe Creative Suite, CapCut",
-      "CRM : HubSpot, Salesforce"
+      "WordPress & Shopify (Back-office)",
+      "CRM : HubSpot, Salesforce",
+      "Outils collaboratifs : Notion, Slack, Trello"
     ]
   }
 ];
