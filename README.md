@@ -1,20 +1,26 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
+# 🚀 Portfolio de Abdoulaye Cissé
+### Alternant en Projets Digitaux | Stratégie & Impact Social
 
-This contains everything you need to run your app locally.
+Bienvenue sur mon portfolio professionnel. Ce site présente mon parcours, mes compétences techniques et mes réalisations marquantes dans le domaine du numérique et de l'impact social.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1ITaKkBL_Tg8xGGc9SINeQCeDFk6LnIkV
+## 🛠️ Projets Mis en Avant
+- **Alba Massage** : Stratégie Social Media & Communication.
+- **Gestion Airbnb Dakar** : Management opérationnel et marketing immobilier.
+- **Fight Industrie** : Projet à impact social (partenariat boxe & centre social).
 
-## Run Locally
+## 💻 Stack Technique
+- **Frontend** : React 19, Tailwind CSS (CDN/JIT), Lucide Icons.
+- **Architecture** : ESM (No-build setup) pour une performance optimale et un déploiement rapide.
+- **Hébergement** : Netlify.
 
-**Prerequisites:**  Node.js
+## 📈 Compétences
+- **Social Media** : Meta Business Suite, TikTok Ads, Création de contenu.
+- **Gestion de Projet** : KPIs, GA4, Coordination de partenaires.
+- **Outils** : Notion, HubSpot, Suite Adobe.
 
+## 🚀 Déploiement
+Le projet est configuré pour être déployé en un clic sur **Netlify**. Les dépendances sont gérées via `esm.sh` pour éviter les lourdeurs de build locales.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+© 2025 Abdoulaye Cissé.
